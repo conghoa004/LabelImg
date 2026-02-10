@@ -22,7 +22,13 @@ cd labelImg
 pip install PyQt5 lxml
 ```
 
-## 4. Thay đoạn code trong file `labelImg.py`
+## 4. Tạo `resources.qrc`
+
+```bash
+pyrcc5 -o libs/resources.py resources.qrc
+```
+
+## 5. Thay đoạn code trong file `labelImg.py`
 
 ```python
 #!/usr/bin/env python
@@ -1723,7 +1729,7 @@ if __name__ == '__main__':
     sys.exit(main())
 ```
 
-## 5. Chạy `labelImg.py`
+## 6. Chạy `labelImg.py`
 
 ```python
 python labelImg.py
