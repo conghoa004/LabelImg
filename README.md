@@ -31,9 +31,9 @@ pyrcc5 -o libs/resources.py resources.qrc
 ## 5. Thay hàm đổi `show_bounding_box_from_annotation_file` trong file `labelImg.py` (đã thay sẵn rồi)
 
 ```python
-    def show_bounding_box_from_annotation_file(self, file_path):
-        if file_path is None:
-            return
+def show_bounding_box_from_annotation_file(self, file_path):
+    if file_path is None:
+        return
 ```
 
 ## 6. Chạy `labelImg.py`
