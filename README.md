@@ -1,3 +1,28 @@
+# LabelImg – Installation Guide (Official GitHub Version)
+
+## 1. Yêu cầu hệ thống
+- OS: Windows 10 / 11
+- Python: **3.8 – 3.9 (khuyến nghị)**  
+  ⚠️ Python 3.10+ dễ gặp bug
+- Git đã cài sẵn
+
+---
+
+## 2. Clone repository chính thức
+```bash
+git clone https://github.com/tzutalin/labelImg.git
+cd labelImg
+```
+
+## 3. Cài thư viện
+
+```bash
+pip install PyQt5 lxml
+```
+
+## 4. Thay đoạn code trong file `labelImg.py`
+
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import argparse
@@ -1694,3 +1719,10 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+```
+
+## 5. Chạy `labelImg.py`
+
+```python
+python labelImg.py
+```
