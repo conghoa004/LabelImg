@@ -1,10 +1,12 @@
-# LabelImg – Installation Guide (Official GitHub Version)
+# LabelImg – Installation Guide
 
 ## 1. Yêu cầu hệ thống
 - OS: Windows 10 / 11
 - Python: **3.8 – 3.9 (khuyến nghị)**  
   ⚠️ Python 3.10+ dễ gặp bug
 - Git đã cài sẵn
+
+### Repo chính thức: `https://github.com/HumanSignal/labelImg.git`
 
 ---
 
